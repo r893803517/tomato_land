@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.inline {
+	display: inline;
+	float:left;
+	margin-right:22px;
+	margin-bottom:20px;
+}
+
+a:link {
+	text-decoration: none;	
+}
+
+.c_center {
+	text-align: center;
+}
+
+.c_left {
+	text-align: left;
+}
+
+.c_right {
+	text-align: right;
+}
+
+.f_div {
+	float: left;
+}
+
+.r_div {
+	float: right;
+}
+
+.c_center {
+	text-align: center;
+}
+
+
+.c_left {
+	text-align: left;
+}
+
+
+
+.c_right {
+	text-align: right;
+}
+
+.f_div {
+	float: left;
+}
+
+.r_div {
+	float: right;
+}
+
+
+

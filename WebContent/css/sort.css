@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+.sort_name{
+	margin-top:15px;
+	margin-bottom:15px;
+	text-align:left;
+	margin-left:20px;	
+}
+
+.visit{
+	color:gray;
+}
+
+#person_info{
+	margin-top:30px;
+	margin-bottom:20px;
+}

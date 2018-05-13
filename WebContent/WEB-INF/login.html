@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录 | MyBlog</title>
+
+ 	<!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">    
+    
+    <link type="text/css" rel="stylesheet" href="/Blog/css/login.css" />  
+    <script type = "text/javascript">
+    	
+    </script>
+</head>
+<body>
+	<div class="container" id="main">
+
+		<form class="form-signin" id="form" action="/Blog/LoginServlet"
+			method="post">
+			<h2 class="form-signin-heading"><a href="/Blog/index.jsp">Tomato</a></h2>
+			<br>
+			<br>
+			<label for="input" class="sr-only">用户名</label> <input type="text"
+				id="input" class="form-control" placeholder="用户名" name="username"
+				required> <label for="inputPassword" class="sr-only">密码</label>
+				<br>
+			<input type="password" id="inputPassword" class="form-control"
+				placeholder="密码" name="password" required>
+
+			<button class="btn btn-lg btn-primary btn-block" type="submit"
+				id="submit">登录</button>
+			<a id = "register" href = "/Blog/page/register.jsp">注册</a>
+		
+		</form>
+		<!-- /form -->
+
+	</div>
+	<!-- /container -->
+
+	
+
+
+</body>
+</html>
